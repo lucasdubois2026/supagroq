@@ -4,7 +4,7 @@ import { createClient } from '@supabase/supabase-js';
 // KONFIGURASI SUPABASE & ENVIRONMENT
 // ==========================================
 // Menggunakan fallback URL langsung untuk menghindari variabel kosong di Railway
-const SUPABASE_URL = "https://fjssijgbemvyjcvpizko.supabase.co";
+const SUPABASE_URL = "https://wncexgtjfcqapgkkdndo.supabase.co";
 const SUPABASE_SERVICE_ROLE_KEY = (process.env.SUPABASE_SERVICE_ROLE_KEY || "").trim();
 const WORKER_ID = process.env.WORKER_ID || 1;
 
